@@ -1,0 +1,94 @@
+<mjml>
+    <mj-head>
+        <mj-preview></mj-preview>
+        <mj-attributes>
+            <mj-text padding="0" font-family="Arial, Helvetica, sans-serif;" align="center"/>
+            <mj-button padding="0" font-family="Arial, Helvetica, sans-serif;" />
+            <mj-section padding="0" background-color="#ffffff" />
+            <mj-image padding="0" />
+        </mj-attributes> 
+    </mj-head>
+    <mj-body width="600px" >
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://dylanhedges.com/email/periodic-welcome-light/images/logo.png" target="_blank" width="500px"></mj-image>
+                <mj-image src="https://dylanhedges.com/email/periodic-welcome-light/images/interface.png" target="_blank" width="500px"></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="32px" color="#1D3861" font-weight="700" padding="40px 0 10px 0">
+                    Welcome to Periodic!
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" padding="10px 50px 30px 50px" line-height="24px">
+                    Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque at. In euismod praesent placerat pellentesque ultrices non arcu. Eget diam faucibus facilisi sed a.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-image href="https://dylanhedges.com/" target="_blank" src="https://dylanhedges.com/email/periodic-welcome-light/images/launch-btn.png" width="500px" alt="" alt="Launch Periodic button, select to launch Periodic."></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#1F2933" font-weight="400" padding="30px 50px 20px 50px" line-height="22px">
+                    Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque at. In euismod praesent placerat pellentesque ultrices non arcu. Eget diam faucibus facilisi sed a.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#F8FAFC">
+            <mj-column>
+                <mj-text font-size="18px" color="#1F2933" font-weight="600" padding="30px 0px 5px 0px" line-height="24px">
+                    Get the Periodic app
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" padding="5px 100px 10px 100px" line-height="24px">
+                    Get the most of Periodic by installing the mobile app. You can login using your existing account.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#F8FAFC" padding="20px 100px 20px 100px">
+            <mj-group>
+                <mj-column>
+                    <mj-image href="https://dylanhedges.com/" target="_blank" src="https://dylanhedges.com/email/periodic-welcome-light/images/apple-store.png" width="165px" alt="Apple store button, select to open the Apple store."></mj-image>
+                </mj-column>
+                <mj-column>
+                    <mj-image href="https://dylanhedges.com/" target="_blank" src="https://dylanhedges.com/email/periodic-welcome-light/images/play-store.png" width="165px" alt="Google Play Store button, select to open the Google Play Store."></mj-image>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="30px 0 10px 0" line-height="22px">
+                    © 2024 Periodic Labs
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 0 10px 0">
+            <mj-group>
+                <mj-column>
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px">
+                        <a href="https://dylanhedges.com/" target="_blank">Privacy Policy</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px">
+                        <a href="https://dylanhedges.com/" target="_blank">Email preferences</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px">
+                        <a href="https://dylanhedges.com/" target="_blank">Support</a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="10px 0 5px 0" line-height="22px">
+                    <a href="https://dylanhedges.com/email/periodic-welcome-light/index.html" target="_blank">Click here to view the browser version.</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
