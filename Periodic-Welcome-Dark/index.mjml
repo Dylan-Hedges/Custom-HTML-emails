@@ -1,0 +1,105 @@
+<mjml>
+    <mj-head>
+        <!--Preview text to display under email subject, blank means use text from email body-->
+        <mj-preview></mj-preview>
+        <!--Default styling for elements-->
+        <mj-attributes>
+            <mj-text padding="0" font-family="Arial, Helvetica, sans-serif;" align="center"/>
+            <mj-button padding="0" font-family="Arial, Helvetica, sans-serif;" />
+            <mj-section padding="0" background-color="#020617" />
+            <mj-image padding="0" />
+        </mj-attributes> 
+    </mj-head>
+    <mj-body width="600px" background-color="#020617" >
+        <!--Header Section-->
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://dylanhedges.com/email/periodic-welcome-dark/images/logo.png" alt="Periodic logo" width="500px"></mj-image>
+                <mj-image src="https://dylanhedges.com/email/periodic-welcome-dark/images/interface.png" alt="Image of user interface" width="500px"></mj-image>
+            </mj-column>
+        </mj-section>
+        <!--Welcome Section-->
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="32px" color="#FFFFFF" font-weight="700" padding="40px 0 10px 0">
+                    Welcome to Periodic!
+                </mj-text>
+                <mj-text font-size="16px" color="#FFFFFF" font-weight="400" padding="10px 10% 30px 10%" line-height="24px">
+                    Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque at. In euismod praesent placerat pellentesque ultrices non arcu. Eget diam faucibus facilisi sed placerat dolor sit a consectetur.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Launch Section-->
+        <mj-section background-color="#1E293B" padding="20px 0 20px 0">
+            <mj-column width="10%"></mj-column>
+            <mj-column width="80%">
+                <mj-image href="https://dylanhedges.com" src="https://dylanhedges.com/email/periodic-welcome-dark/images/launch-btn-small.png" width="200px" alt="Launch Periodic button, select to launch Periodic." target="_blank"></mj-image>
+            </mj-column>
+            <mj-column width="10%"></mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#FFFFFF" font-weight="400" padding="30px 10% 20px 10%" line-height="22px">
+                    Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque at. In euismod praesent placerat pellentesque ultrices non arcu. Eget diam faucibus facilisi sed ultrices sed ipsum a placerat.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Where to Download Section-->
+        <mj-section background-color="#1E293B">
+            <mj-column>
+                <mj-text font-size="18px" color="#FFFFFF" font-weight="600" padding="30px 0px 5px 0px" line-height="24px" >
+                    Get the Periodic app
+                </mj-text>
+                <mj-text font-size="16px" color="#FFFFFF" font-weight="400" padding="5px 20% 10px 20%" line-height="24px">
+                    Get the most of Periodic by installing the mobile app. You can login using your existing account.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#1E293B" padding="20px 10% 20px 10%">
+            <mj-group>
+                <mj-column>
+                    <mj-image href="https://dylanhedges.com" src="https://dylanhedges.com/email/periodic-welcome-dark/images/apple-store.png" width="165px" padding="5px" alt="Apple store button, select to open the Apple store." target="_blank"></mj-image>
+                </mj-column>
+                <mj-column>
+                    <mj-image href="https://dylanhedges.com" src="https://dylanhedges.com/email/periodic-welcome-dark/images/play-store.png" width="165px" padding="5px" alt="Google Play Store button, select to open the Google Play Store." target="_blank"></mj-image>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Footer Section-->
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#FFFFFF" font-weight="400" padding="30px 0 10px 0" line-height="22px">
+                    © 2024 Periodic Labs
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 0 10px 0">
+            <mj-group>
+                <mj-column width="5%"></mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#FFFFFF" font-weight="400" line-height="22px">
+                        <a href="https://dylanhedges.com" target="_blank" style="color: #FFFFFF;"><strong style="font-weight:normal;">Privacy Policy</strong></a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#FFFFFF" font-weight="400" line-height="22px">
+                        <a href="https://dylanhedges.com" target="_blank" style="color: #FFFFFF;"><strong style="font-weight:normal;">Email preferences</strong></a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#FFFFFF" font-weight="400" line-height="22px">
+                        <a href="https://dylanhedges.com" target="_blank" style="color: #FFFFFF;"><strong style="font-weight:normal;">Support</strong></a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="5%"></mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#FFFFFF" font-weight="400" padding="10px 0 10px 0" line-height="22px">
+                    <a href="https://dylanhedges.com/email/periodic-welcome-dark/index.html" target="_blank" style="color: #FFFFFF"><strong style="font-weight:normal;">Click here to view the browser version.</strong></a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
