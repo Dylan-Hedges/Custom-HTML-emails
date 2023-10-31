@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: #1F2933;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Set a base font size and line height */
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+/*Header & Footer styling*/
+.header, .footer{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: #F8FAFC;
+}
+
+/*Card Section*/
+/*CSS Grid Styling*/
+.container {
+    padding: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-areas:
+    ". email-1 email-2  ."
+    ;
+    grid-gap: 20px;
+}
+
+.email-1{
+    grid-area: email-1;
+}
+
+.email-2{
+    grid-area: email-2;
+}
+
+
+/*Card Styling*/
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.icons-container{
+    padding: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 20px;
+}
+.card-img-icons{
+    width: auto;
+    height: 50px;
+}
+
+@media only screen and (max-width: 795px) {
+    .container {
+        grid-template-columns: 5% 45% 45% 5%;
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-areas:
+        ". email-1 ."
+        ". email-2 ."
+        ;
+        grid-gap: 0;
+    }
+}
+
