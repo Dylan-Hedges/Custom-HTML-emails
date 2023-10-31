@@ -14,8 +14,8 @@
         <!--Header Section-->
         <mj-section>
             <mj-column>
-                <mj-image src="https://dylanhedges.com/email/periodic-welcome-light/images/logo.png" alt="Periodic logo" width="500px"></mj-image>
-                <mj-image src="https://dylanhedges.com/email/periodic-welcome-light/images/interface.png" alt="Image of user interface" width="500px"></mj-image>
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-welcome-light/images/logo.png" alt="Periodic logo" width="500px"></mj-image>
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-welcome-light/images/interface.png" alt="Image of user interface" width="500px"></mj-image>
             </mj-column>
         </mj-section>
         <!--Welcome Section-->
@@ -33,7 +33,7 @@
         <mj-section background-color="#F8FAFC" padding="20px 0 20px 0">
             <mj-column width="10%"></mj-column>
             <mj-column width="80%">
-                <mj-image href="https://dylanhedges.com" src="https://dylanhedges.com/email/periodic-welcome-light/images/launch-btn-small.png" width="200px" alt="Launch Periodic button, select to launch Periodic." target="_blank"></mj-image>
+                <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-welcome-light/images/launch-btn-small.png" width="200px" alt="Launch Periodic button, select to launch Periodic." target="_blank"></mj-image>
             </mj-column>
             <mj-column width="10%"></mj-column>
         </mj-section>
@@ -58,10 +58,10 @@
         <mj-section background-color="#F8FAFC" padding="20px 10% 20px 10%">
             <mj-group>
                 <mj-column>
-                    <mj-image href="https://dylanhedges.com/" src="https://dylanhedges.com/email/periodic-welcome-light/images/apple-store.png" width="165px" padding="5px" alt="Apple store button, select to open the Apple store." target="_blank"></mj-image>
+                    <mj-image href="https://dylanhedges.com/" src="https://customhtmlemails.dylanhedges.com/periodic-welcome-light/images/apple-store.png" width="165px" padding="5px" alt="Apple store button, select to open the Apple store." target="_blank"></mj-image>
                 </mj-column>
                 <mj-column>
-                    <mj-image href="https://dylanhedges.com/" src="https://dylanhedges.com/email/periodic-welcome-light/images/play-store.png" width="165px" padding="5px" alt="Google Play Store button, select to open the Google Play Store." target="_blank"></mj-image>
+                    <mj-image href="https://dylanhedges.com/" src="https://customhtmlemails.dylanhedges.com/periodic-welcome-light/images/play-store.png" width="165px" padding="5px" alt="Google Play Store button, select to open the Google Play Store." target="_blank"></mj-image>
                 </mj-column>
             </mj-group>
         </mj-section>
@@ -97,7 +97,7 @@
         <mj-section>
             <mj-column>
                 <mj-text font-size="14px" color="#64748B" font-weight="400" padding="10px 0 10px 0" line-height="22px">
-                    <a href="https://dylanhedges.com/email/periodic-welcome-light/index.html" target="_blank">Click here to view the browser version.</a>
+                    <a href="https://customhtmlemails.dylanhedges.com/periodic-welcome-light/index.html" target="_blank">Click here to view the browser version.</a>
                 </mj-text>
             </mj-column>
         </mj-section>
