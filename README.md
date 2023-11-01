@@ -25,5 +25,18 @@ The index.html file generated from the .mjml file serves as the final output of 
 
 The index.html file encapsulates the responsive design and intricate details required for email templates, handling complexities such as table layouts, inline styling, and specific email client quirks. By generating this file from the .mjml source, developers and designers are provided with a streamlined and error-resistant workflow, as the MJML framework automates many of the tedious and error-prone aspects of email template creation. This allows for a ready-to-use, reliable, and cross-client compatible email template, ensuring that the end-users receive a well-rendered and responsive email, regardless of the device or email client they are using.
 
-## Outlook message file (.msg)
-This file is a Microsoft Outlook email message file created from the index.html file, enabling users to open, modify, and dispatch the email directly through their Outlook client. The .msg file is a proprietary format used by Microsoft Outlook to store email messages, and creating a .msg file from an index.html email template involves a few specific actions. The .html file, generated from a .mjml file, contains the HTML and CSS code necessary for rendering the email template. To transform this HTML content into a .msg file, you can open the HTML file in Outlook, copy the HTML and CSS code, and save the email as a .msg file.
+## Testing
+You can use [PutsMail](https://putsmail.com/tests/new) to test the email templates in this project.
+
+PutsMail is a user-friendly tool tailored for developers, designers, and marketers to facilitate the testing of HTML emails. It offers a simple interface where users can enter their HTML and CSS code, specify the recipient's email address, and send a test email. This enables users to see how their email will display across different email clients and devices, ensuring it looks consistent and visually appealing.
+
+To test an email template perform the following steps:
+1. Open https://putsmail.com/tests/new
+2. Create a new account
+3. Enter recipient email addresses
+4. Enter a Subject Line for the email
+5. Copy the HTML and CSS code in the index.html file 
+5. Paste the code in the Body(HTML) section
+6. Click Send Email
+
+
