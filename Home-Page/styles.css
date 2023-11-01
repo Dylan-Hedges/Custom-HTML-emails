@@ -46,6 +46,7 @@ p{
     grid-template-columns: 20% 30% 30% 20%;
     grid-template-areas:
     ". email-1 email-2  ."
+    ". email-3 email-4  ."
     ;
     grid-gap: 20px;
 }
@@ -56,6 +57,14 @@ p{
 
 .email-2{
     grid-area: email-2;
+}
+
+.email-3{
+    grid-area: email-3;
+}
+
+.email-4{
+    grid-area: email-4;
 }
 
 
@@ -108,6 +117,8 @@ p{
         grid-template-areas:
         ". email-1 ."
         ". email-2 ."
+        ". email-3 ."
+        ". email-4 ."
         ;
         grid-gap: 0;
     }
