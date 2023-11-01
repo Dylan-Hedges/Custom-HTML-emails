@@ -1,0 +1,283 @@
+<mjml>
+    <mj-head>
+        <!--Preview text to display under email subject, blank means use text from email body-->
+        <mj-preview></mj-preview>
+        <!--Default styling for elements-->
+        <mj-attributes>
+            <mj-text padding="0" font-family="Arial, Helvetica, sans-serif;" align="left"/>
+            <mj-button padding="0" font-family="Arial, Helvetica, sans-serif;" />
+            <mj-section padding="0" background-color="#ffffff" />
+            <mj-image padding="0" />
+        </mj-attributes> 
+    </mj-head>
+    <mj-body width="600px">
+        <!--Header Section-->
+        <mj-section padding="0 5px 0 5px">
+            <mj-column>
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/logo-cropped.png" alt="Periodic logo" width="169px" align="left"></mj-image>
+            </mj-column>
+        </mj-section>
+        <!--Welcome Section-->
+        <mj-section padding="0 5px 0 5px">
+            <mj-column>
+                <mj-text font-size="32px" color="#1D3861" font-weight="700" padding="20px 0 10px 0">
+                    Hi, Chloe!
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" padding="15px 0 10px 0" line-height="24px">
+                    Thanks for shopping at the Periodic shop. Your order has been received and will be processed as soon as possible.
+                </mj-text>
+                <mj-text font-size="14px" color="#475569" font-weight="400" padding="10px 0 0 0" line-height="24px">
+                    Order #288-63997143-ABZFGG
+                </mj-text>
+                <mj-text font-size="14px" color="#475569" font-weight="400" padding="5px 0 15px 0" line-height="24px">
+                    Please note: payment will be taken only after delivery confirmation.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#F8FAFC" padding="20px 0 20px 0">
+            <mj-column>
+                <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/view-order-btn-small.png" width="200px" alt="View Order button, select to view your order." target="_blank"></mj-image>
+            </mj-column>
+        </mj-section>
+        <!-- Order Table - Row 1 -->
+        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+            <mj-group>
+                <mj-column width="20%">
+                    <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/item-1-image.png" width="80px" alt="Item 1 image" target="_blank"></mj-image>
+                </mj-column>
+                <mj-column width="50%" padding="15px 5px 0 10px">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="600" line-height="24px">
+                        Item name x1
+                    </mj-text>
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px">
+                        Item description, size, color, etc.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%" padding="15px 5px 0 10px">
+                    <mj-text font-size="16px" color="#64748B" font-weight="400" line-height="24px">
+                        <s>£69.99</s>
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                        £53.37
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- Order Table - Row 2 -->
+        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+            <mj-group>
+                <mj-column width="20%">
+                    <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/item-2-image.png" width="80px" alt="Item 2 image" target="_blank"></mj-image>
+                </mj-column>
+                <mj-column width="50%" padding="15px 5px 0 10px">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="600" line-height="24px">
+                        Item name x1
+                    </mj-text>
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px">
+                        Item description, size, color, etc.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%" padding="15px 5px 0 10px">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                        £39.99
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- Order Table - Row 3 -->
+        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+            <mj-group>
+                <mj-column width="20%">
+                    <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/item-3-image.png" width="80px" alt="Item 3 image" target="_blank"></mj-image>
+                </mj-column>
+                <mj-column width="50%" padding="15px 5px 0 10px">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="600" line-height="24px">
+                        Item name x1
+                    </mj-text>
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px">
+                        Item description, size, color, etc.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%" padding="15px 5px 0 10px">
+                    <mj-text font-size="16px" color="#64748B" font-weight="400" line-height="24px">
+                        <s>£59.99</s>
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                        £42.30
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- Order Breakdown -->
+        <mj-section>
+            <mj-group>
+                <mj-column width="20%">
+                </mj-column>
+                <mj-column width="50%"  padding="20px 0 10px 0">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="3px 0 3px 0">
+                        Order discount
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="3px 0 3px 0">
+                        Subtotal
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="3px 0 3px 0">
+                        Shipping
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="3px 0 3px 0">
+                        Taxes
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%" padding="20px 0 10px 0">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
+                        -£34.31
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
+                        £135.66
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
+                        FREE
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
+                        £6.80
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section border-bottom="1px solid #E2E8F0">
+            <mj-group>
+                <mj-column width="20%">
+                </mj-column>
+                <mj-column width="50%" border-top="1px solid #E2E8F0" >
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="20px 0 20px 0px">
+                        Total
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%" border-top="1px solid #E2E8F0" >
+                    <mj-text font-size="18px" color="#1F2933" font-weight="600" line-height="24px" padding="20px 0 20px 0px">
+                        £135.66
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Shipping & Billing Address Section - Headings-->
+        <mj-section padding="20px 5px 0 5px">
+            <mj-group>
+                <mj-column width="45%">
+                   <mj-text font-size="18px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
+                        Shipping address
+                    </mj-text>
+                </mj-column>
+                <mj-column width="10%"></mj-column>
+                <mj-column width="45%">
+                    <mj-text font-size="18px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 15px 3px 0">
+                        Billing address
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Shipping & Billing Address Section - Details-->
+        <mj-section padding="0 5px 0 5px">
+            <mj-group>
+                <mj-column width="45%">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                        345 Parker Road,
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                         London,
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                        NW1 4NP
+                    </mj-text>
+                </mj-column>
+                <mj-column width="10%"></mj-column>
+                <mj-column width="45%">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                        345 Parker Road,
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                         London,
+                    </mj-text>
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                        NW1 4NP
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Shipping & Payment Method Section - Headings-->
+        <mj-section padding="20px 5px 0 5px">
+            <mj-group>
+                <mj-column width="45%">
+                   <mj-text font-size="18px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
+                        Shipping method
+                    </mj-text>
+                </mj-column>
+                <mj-column width="10%"></mj-column>
+                <mj-column width="45%">
+                    <mj-text font-size="18px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
+                        Payment method
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Shipping & Payment Method Section - Details-->
+        <mj-section border-bottom="1px solid #E2E8F0" padding="0 5px 20px 5px">
+            <mj-group>
+                <mj-column width="45%">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="3px 0 3px 0">
+                        Express Delivery (3-5 days)
+                    </mj-text>
+                </mj-column>
+                <mj-column width="10%"></mj-column>
+                <mj-column width="45%">
+                    <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="3px 0 3px 0">
+                        Visa (ending in 3456)
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Contact Section-->
+        <mj-section border-bottom="1px solid #E2E8F0" padding="40px 5px 40px 5px">
+            <mj-column>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                    If there are any errors to your order, or if you have any questions, please reach out to us at <a href="mailto:support@periodic.com" style="color:#00A2FF;">support@periodic.com</a>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Footer Section-->
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="30px 0 10px 0" line-height="22px" align="center">
+                    © 2024 Periodic Labs
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 0 10px 0">
+            <mj-group>
+                <mj-column width="5%"></mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Privacy Policy</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Email preferences</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Support</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="5%"></mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="10px 0 10px 0" line-height="22px" align="center">
+                    <a href="https://customhtmlemails.dylanhedges.com/periodic-order-light/index.html" target="_blank">Click here to view the browser version.</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
