@@ -12,13 +12,13 @@
     </mj-head>
     <mj-body width="600px">
         <!--Header Section-->
-        <mj-section padding="0 5px 0 5px">
+        <mj-section padding="0 15px 0 15px">
             <mj-column>
                 <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/logo-cropped.png" alt="Periodic logo" width="169px" align="left"></mj-image>
             </mj-column>
         </mj-section>
         <!--Welcome Section-->
-        <mj-section padding="0 5px 0 5px">
+        <mj-section padding="0 15px 0 15px">
             <mj-column>
                 <mj-text font-size="32px" color="#1D3861" font-weight="700" padding="20px 0 10px 0">
                     Hi, Chloe!
@@ -40,7 +40,7 @@
             </mj-column>
         </mj-section>
         <!-- Order Table - Row 1 -->
-        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+        <mj-section padding="20px 15px 20px 15px" border-bottom="1px solid #E2E8F0">
             <mj-group>
                 <mj-column width="20%">
                     <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/item-1-image.png" width="80px" alt="Item 1 image" target="_blank"></mj-image>
@@ -64,7 +64,7 @@
             </mj-group>
         </mj-section>
         <!-- Order Table - Row 2 -->
-        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+        <mj-section padding="20px 15px 20px 15px" border-bottom="1px solid #E2E8F0">
             <mj-group>
                 <mj-column width="20%">
                     <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/item-2-image.png" width="80px" alt="Item 2 image" target="_blank"></mj-image>
@@ -85,7 +85,7 @@
             </mj-group>
         </mj-section>
         <!-- Order Table - Row 3 -->
-        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+        <mj-section padding="20px 15px 20px 15px" border-bottom="1px solid #E2E8F0">
             <mj-group>
                 <mj-column width="20%">
                     <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-order-light/images/item-3-image.png" width="80px" alt="Item 3 image" target="_blank"></mj-image>
@@ -160,7 +160,7 @@
             </mj-group>
         </mj-section>
         <!--Shipping & Billing Address Section - Headings-->
-        <mj-section padding="20px 5px 0 5px">
+        <mj-section padding="20px 15px 0 15px">
             <mj-group>
                 <mj-column width="45%">
                    <mj-text font-size="18px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
@@ -176,7 +176,7 @@
             </mj-group>
         </mj-section>
         <!--Shipping & Billing Address Section - Details-->
-        <mj-section padding="0 5px 0 5px">
+        <mj-section padding="0 15px 0 15px">
             <mj-group>
                 <mj-column width="45%">
                     <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
@@ -204,7 +204,7 @@
             </mj-group>
         </mj-section>
         <!--Shipping & Payment Method Section - Headings-->
-        <mj-section padding="20px 5px 0 5px">
+        <mj-section padding="20px 15px 0 15px">
             <mj-group>
                 <mj-column width="45%">
                    <mj-text font-size="18px" color="#1F2933" font-weight="600" line-height="24px" padding="3px 0 3px 0">
@@ -220,7 +220,7 @@
             </mj-group>
         </mj-section>
         <!--Shipping & Payment Method Section - Details-->
-        <mj-section border-bottom="1px solid #E2E8F0" padding="0 5px 20px 5px">
+        <mj-section border-bottom="1px solid #E2E8F0" padding="0 15px 20px 15px">
             <mj-group>
                 <mj-column width="45%">
                     <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="3px 0 3px 0">
@@ -236,7 +236,7 @@
             </mj-group>
         </mj-section>
         <!--Contact Section-->
-        <mj-section border-bottom="1px solid #E2E8F0" padding="40px 5px 40px 5px">
+        <mj-section border-bottom="1px solid #E2E8F0" padding="40px 15px 40px 15px">
             <mj-column>
                 <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
                     If there are any errors to your order, or if you have any questions, please reach out to us at <a href="mailto:support@periodic.com" style="color:#00A2FF;">support@periodic.com</a>.
