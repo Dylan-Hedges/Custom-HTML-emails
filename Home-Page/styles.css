@@ -47,6 +47,8 @@ p{
     grid-template-areas:
     ". email-1 email-2  ."
     ". email-3 email-4  ."
+    ". email-5 email-6  ."
+    ". email-7 email-8  ."
     ;
     grid-gap: 20px;
 }
@@ -65,6 +67,22 @@ p{
 
 .email-4{
     grid-area: email-4;
+}
+
+.email-5{
+    grid-area: email-5;
+}
+
+.email-6{
+    grid-area: email-6;
+}
+
+.email-7{
+    grid-area: email-7;
+}
+
+.email-8{
+    grid-area: email-8;
 }
 
 
@@ -119,6 +137,10 @@ p{
         ". email-2 ."
         ". email-3 ."
         ". email-4 ."
+        ". email-5 ."
+        ". email-6 ."
+        ". email-7 ."
+        ". email-8 ."
         ;
         grid-gap: 0;
     }
