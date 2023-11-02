@@ -1,0 +1,130 @@
+<mjml>
+    <mj-head>
+        <!--Preview text to display under email subject, blank means use text from email body-->
+        <mj-preview></mj-preview>
+        <!--Default styling for elements-->
+        <mj-attributes>
+            <mj-text padding="0" font-family="Arial, Helvetica, sans-serif;" align="left"/>
+            <mj-button padding="0" font-family="Arial, Helvetica, sans-serif;" />
+            <mj-section padding="0" background-color="#ffffff" />
+            <mj-image padding="0" />
+        </mj-attributes> 
+    </mj-head>
+    <mj-body width="600px">
+        <!--Header Section-->
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/logo-cropped.png" alt="Periodic logo." width="169px" align="center"></mj-image>
+            </mj-column>
+        </mj-section>
+        <!--Intro Section-->
+        <mj-section padding="20px 5px 20px 5px" >
+            <mj-column >
+                <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/landing-image.png" align="left" alt="Image of sunglasses and accessories" target="_blank"></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 5px 0 5px">
+            <mj-column>
+                <mj-text font-size="32px" color="#1D3861" font-weight="700" padding="20px 0 10px 0">
+                    Meet the new X collection.
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" padding="15px 0 10px 0" line-height="24px">
+                    Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque at. In euismod praesent placerat pellentesque ultrices non arcu. Eget diam faucibus facilisi sed a.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="20px 5px 20px 5px" >
+            <mj-column >
+                <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/shop-btn.png" width="195px" align="left" alt="Shop the collection button, select to visit the store." target="_blank"></mj-image>
+            </mj-column>
+        </mj-section>
+        <!--Product Collection Section-->
+        <mj-section padding="20px 5px 10px 5px">
+            <mj-group>
+                <mj-column width="48%">
+                    <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/product-1.png" align="left" alt="Image of shirts on a clothes rack."></mj-image>
+                    <mj-text font-size="18px" color="#1D3861" font-weight="600" line-height="24px" padding="15px 0 5px 0">
+                        Item name
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="4%"></mj-column>
+               <mj-column width="48%">
+                    <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/product-2.png" align="left" alt="Image of various clothes in a store."></mj-image>
+                    <mj-text font-size="18px" color="#1D3861" font-weight="600" line-height="24px" padding="15px 0 5px 0">
+                        Item name
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices.
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding="20px 5px 10px 5px">
+            <mj-group>
+                <mj-column width="48%">
+                    <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/product-3.png" align="left" alt="Image of shoes, hats and t-shirts."></mj-image>
+                    <mj-text font-size="18px" color="#1D3861" font-weight="600" line-height="24px" padding="15px 0 5px 0">
+                        Item name
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="4%"></mj-column>
+               <mj-column width="48%">
+                    <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/product-4.png" align="left" alt="Image of white hoody and jeans."></mj-image>
+                    <mj-text font-size="18px" color="#1D3861" font-weight="600" line-height="24px" padding="15px 0 5px 0">
+                        Item name
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque.
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+            <mj-column >
+                <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/shop-btn.png" width="195px" align="center" alt="Shop the collection button, select to visit the store." target="_blank"></mj-image>
+            </mj-column>
+        </mj-section>
+        <!--Footer Section-->
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="30px 0 10px 0" line-height="22px" align="center">
+                    © 2024 Periodic Labs
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 0 10px 0">
+            <mj-group>
+                <mj-column width="5%"></mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Privacy Policy</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Email preferences</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Support</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="5%"></mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="10px 0 10px 0" line-height="22px" align="center">
+                    <a href="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/index.html" target="_blank">Click here to view the browser version.</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
