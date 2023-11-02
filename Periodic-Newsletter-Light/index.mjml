@@ -18,12 +18,12 @@
             </mj-column>
         </mj-section>
         <!--Intro Section-->
-        <mj-section padding="20px 5px 20px 5px" >
+        <mj-section padding="20px 15px 20px 15px" >
             <mj-column >
                 <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/landing-image.png" align="left" alt="Image of sunglasses and accessories" target="_blank"></mj-image>
             </mj-column>
         </mj-section>
-        <mj-section padding="0 5px 0 5px">
+        <mj-section padding="0 15px 0 15px">
             <mj-column>
                 <mj-text font-size="32px" color="#1D3861" font-weight="700" padding="20px 0 10px 0">
                     Meet the new X collection.
@@ -33,13 +33,13 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding="20px 5px 20px 5px" >
+        <mj-section padding="20px 15px 20px 15px" >
             <mj-column >
                 <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/shop-btn.png" width="195px" align="left" alt="Shop the collection button, select to visit the store." target="_blank"></mj-image>
             </mj-column>
         </mj-section>
         <!--Product Collection Section-->
-        <mj-section padding="20px 5px 10px 5px">
+        <mj-section padding="20px 15px 10px 15px">
             <mj-group>
                 <mj-column width="48%">
                     <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/product-1.png" align="left" alt="Image of shirts on a clothes rack."></mj-image>
@@ -62,7 +62,7 @@
                 </mj-column>
             </mj-group>
         </mj-section>
-        <mj-section padding="20px 5px 10px 5px">
+        <mj-section padding="20px 15px 10px 15px">
             <mj-group>
                 <mj-column width="48%">
                     <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/product-3.png" align="left" alt="Image of shoes, hats and t-shirts."></mj-image>
@@ -85,7 +85,7 @@
                 </mj-column>
             </mj-group>
         </mj-section>
-        <mj-section padding="20px 5px 20px 5px" border-bottom="1px solid #E2E8F0">
+        <mj-section padding="20px 15px 20px 15px" border-bottom="1px solid #E2E8F0">
             <mj-column >
                 <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/shop-btn.png" width="195px" align="center" alt="Shop the collection button, select to visit the store." target="_blank"></mj-image>
             </mj-column>
