@@ -14,7 +14,7 @@
         <!--Header Section-->
         <mj-section>
             <mj-column>
-                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-welcome-dark/images/logo.png" alt="Periodic logo" width="500px"></mj-image>
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-welcome-dark/images/logo-cropped.png" alt="Periodic logo" width="169px"></mj-image>
                 <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-welcome-dark/images/interface.png" alt="Image of user interface" width="500px"></mj-image>
             </mj-column>
         </mj-section>
