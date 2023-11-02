@@ -20,7 +20,7 @@
         <!--Intro Section-->
         <mj-section padding="20px 5px 20px 5px" >
             <mj-column >
-                <mj-image href="https://dylanhedges.com" src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/landing-image.png" align="left" alt="Image of sunglasses and accessories" target="_blank"></mj-image>
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-newsletter-light/images/landing-image.png" align="left" alt="Image of sunglasses and accessories" target="_blank"></mj-image>
             </mj-column>
         </mj-section>
         <mj-section padding="0 5px 0 5px">
@@ -47,7 +47,7 @@
                         Item name
                     </mj-text>
                     <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
-                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque.
+                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed.
                     </mj-text>
                 </mj-column>
                 <mj-column width="4%"></mj-column>
@@ -80,7 +80,7 @@
                         Item name
                     </mj-text>
                     <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
-                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed neque.
+                        Lorem ipsum dolor sit amet consectetur. Sed quis viverra ultrices sed ipsum varius. Facilisis eleifend ultrices at purus sed.
                     </mj-text>
                 </mj-column>
             </mj-group>
