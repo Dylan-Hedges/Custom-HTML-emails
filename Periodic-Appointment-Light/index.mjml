@@ -1,0 +1,125 @@
+<mjml>
+    <mj-head>
+        <!--Preview text to display under email subject, blank means use text from email body-->
+        <mj-preview></mj-preview>
+        <!--Default styling for elements-->
+        <mj-attributes>
+            <mj-text padding="0" font-family="Arial, Helvetica, sans-serif;" align="left"/>
+            <mj-button padding="0" font-family="Arial, Helvetica, sans-serif;" />
+            <mj-section padding="0" background-color="#ffffff" />
+            <mj-image padding="0" />
+        </mj-attributes> 
+    </mj-head>
+    <mj-body width="600px">
+        <!--Header Section-->
+        <mj-section padding="0 15px 0 15px">
+            <mj-column>
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-appointment-light/images/logo-cropped.png" alt="Periodic logo." width="169px" align="left"></mj-image>
+            </mj-column>
+        </mj-section>
+        <!--Intro Section-->
+        <mj-section padding="10px 15px 20px 15px" >
+            <mj-column >
+                <mj-image src="https://customhtmlemails.dylanhedges.com/periodic-appointment-light/images/calendar.png" width="66px" align="left" alt="Image of sunglasses and accessories"></mj-image>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 15px 20px 15px">
+            <mj-column>
+                <mj-text font-size="32px" color="#1D3861" font-weight="700" padding="20px 0 10px 0">
+                    Appointment scheduled
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" padding="15px 0 5px 0" line-height="24px">
+                    Dear Chloe,
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                    Here are your upcoming appointment details:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Product Collection Section-->
+        <mj-section padding="20px" background-color="#F8FAFC">
+            <mj-group>
+                <mj-column width="48%">
+                    <mj-text font-size="18px" color="#1D3861" font-weight="600" line-height="24px" padding="15px 0 5px 0">
+                        Date:
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        12/08/2024
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        Monday 1:30PM
+                    </mj-text>
+                </mj-column>
+                <mj-column width="4%"></mj-column>
+               <mj-column width="48%">
+                    <mj-text font-size="18px" color="#1D3861" font-weight="600" line-height="24px" padding="15px 0 5px 0">
+                        Guests:
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        Chloe Taylor
+                    </mj-text>
+                    <mj-text font-size="14px" color="#1F2933" font-weight="400" line-height="22px" padding="3px 0 3px 0">
+                        Nelson Stewart
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+       <mj-section padding="10px 0 20px 0" background-color="#F8FAFC">
+            <mj-group>
+                <mj-column>
+                    <mj-image href="https://dylanhedges.com/"src="https://customhtmlemails.dylanhedges.com/periodic-appointment-light/images/appointment-btn-small.png" width="200px" align="center" alt="Image of sunglasses and accessories" target="_blank"></mj-image>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!--Contact Section-->
+        <mj-section border-bottom="1px solid #E2E8F0" padding="20px 15px 40px 15px">
+            <mj-column>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px">
+                    If you cannot attend, please contact the Periodic team through chat or at <a href="mailto:support@periodic.com" style="color:#00A2FF;">support@periodic.com</a>.
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="40px 0 0 0">
+                    Thank you,
+                </mj-text>
+                <mj-text font-size="16px" color="#1F2933" font-weight="400" line-height="24px" padding="5px 0 0 0">
+                    The Periodic team
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Footer Section-->
+        <mj-section padding="5px 0 15px 0">
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="30px 0 10px 0" line-height="22px" align="center">
+                    © 2024 Periodic Labs
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 0 10px 0">
+            <mj-group>
+                <mj-column width="5%"></mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Privacy Policy</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Email preferences</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="30%">
+                    <mj-text font-size="14px" color="#64748B" font-weight="400" line-height="22px" align="center">
+                        <a href="https://dylanhedges.com/" target="_blank">Support</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="5%"></mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="14px" color="#64748B" font-weight="400" padding="10px 0 10px 0" line-height="22px" align="center">
+                    <a href="https://customhtmlemails.dylanhedges.com/periodic-appointment-light/index.html" target="_blank">Click here to view the browser version.</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
